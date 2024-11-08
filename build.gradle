@@ -24,7 +24,7 @@ repositories {
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.9.2'
     testImplementation "com.codeborne:selenide:7.5.0"
-    testRuntimeOnly 'org.seleniumhq.selenium:selenium-chrome-driver:4.10.0' // Заменяем firefox-драйвер на chrome
+    testRuntimeOnly 'org.seleniumhq.selenium:selenium-chrome-driver:4.12.0' // Заменяем firefox-драйвер на chrome
     testImplementation 'mysql:mysql-connector-java:8.0.30'
     testImplementation 'com.github.javafaker:javafaker:1.0.2'
     testImplementation 'commons-dbutils:commons-dbutils:1.7'
@@ -34,7 +34,7 @@ dependencies {
     testImplementation 'org.postgresql:postgresql:42.5.0'
 
     // Добавляем зависимость для ChromeDriver
-    testImplementation 'org.seleniumhq.selenium:selenium-chrome-driver:4.10.0'
+    testImplementation 'org.seleniumhq.selenium:selenium-chrome-driver:4.12.0'
 }
 
 test {
